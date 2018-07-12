@@ -1,0 +1,22 @@
+.gantt__container {
+  display: flex;
+  margin: 10px;
+}
+
+.gantt__component {
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-left: auto;
+  max-width: calc(100% - 200px);
+}
+
+.gantt__filter {
+  margin: 80px;
+  text-align: center;
+}
+
+.gantt__list {
+  background-color: white;
+  min-width: 200px;
+  border-right: 1px solid Silver;
+}

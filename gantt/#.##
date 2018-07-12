@@ -1,0 +1,9 @@
+
+> uglifyjs-webpack-plugin@0.4.6 postinstall C:\Users\LICHT & SCHATTEN\Desktop\projectrom4an\gantt2105\node_modules\uglifyjs-webpack-plugin
+> node lib/post_install.js
+
++ moment@2.22.1
++ react@16.4.0
++ react-dom@16.4.0
++ react-dates@16.7.0
+added 298 packages, removed 185 packages and updated 1061 packages in 75.18s

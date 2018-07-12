@@ -1,0 +1,45 @@
+.task__item__header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-right: none;
+  height: 60px;
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: 300;
+  border: 1px solid #e0e0e0;
+}
+
+.task__item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #ebeff2;
+  border-left: 1px solid #ebeff2;
+  height: 38px;
+}
+
+.task__item:nth-child(even) {
+  background: #f5f5f5;
+}
+
+.task__item:first-child {
+  margin-top: -0.5px;
+}
+
+.task__name {
+  flex-basis: 60%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.task__times {
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.glyphicon-user {
+  margin: 0 10px;
+}
